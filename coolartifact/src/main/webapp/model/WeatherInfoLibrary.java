@@ -25,16 +25,8 @@ import java.util.*;
  */
 public class WeatherInfoLibrary {
 
-    //Database Info
-   // String hostName = "leoantsmith.database.windows.net";
-    String dbName = "weatherdata";
-    String user = "root";
-    String password = "gibbiX12345";
-    String url = "jdbc:sqlserver://leoantsmith.database.windows.net:1433;database=WeatherData;user=leoantsmith@WeatherData;password=gibbiX12345;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
-    Connection connection = null;
-
     //API Key for OpenWeatherMap
-    public String ApiKey = "4dc6052f87cf14206bd51538961248cf";
+    public String ApiKey = "{Open_Weathermap_API_Key}";
 
     /**
      * Method requests current WeatherInfo from OpenWeatherMap Api and returns it in
